@@ -13,6 +13,7 @@
 		8E86719E24D06DC3001837BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E86719D24D06DC3001837BC /* Assets.xcassets */; };
 		8E8671A124D06DC3001837BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8671A024D06DC3001837BC /* Preview Assets.xcassets */; };
 		8E8671A424D06DC3001837BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8671A224D06DC3001837BC /* LaunchScreen.storyboard */; };
+		8E8671AC24D06DDB001837BC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8671AB24D06DDB001837BC /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8E8671A024D06DC3001837BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8E8671A324D06DC3001837BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E8671A524D06DC3001837BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E8671AB24D06DDB001837BC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8E86719724D06DC3001837BC /* AppDelegate.swift */,
 				8E86719924D06DC3001837BC /* SceneDelegate.swift */,
 				8E86719B24D06DC3001837BC /* ContentView.swift */,
+				8E8671AB24D06DDB001837BC /* MapView.swift */,
 				8E86719D24D06DC3001837BC /* Assets.xcassets */,
 				8E8671A224D06DC3001837BC /* LaunchScreen.storyboard */,
 				8E8671A524D06DC3001837BC /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E86719824D06DC3001837BC /* AppDelegate.swift in Sources */,
+				8E8671AC24D06DDB001837BC /* MapView.swift in Sources */,
 				8E86719A24D06DC3001837BC /* SceneDelegate.swift in Sources */,
 				8E86719C24D06DC3001837BC /* ContentView.swift in Sources */,
 			);
@@ -296,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tukuyo.SwiftUI-Map";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tukuyo.SwiftUI-Map";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
